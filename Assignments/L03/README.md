@@ -8,12 +8,12 @@
 
 
 ## Sodered Version
-Tests at a distance of 180cm or less https://github.com/DuskPearl/4443-IoT-Wilkins/edit/main/Assignments/L01/README.md
+###Tests at a distance of 180cm or less 
 
   Pictures and video of it working:
-    
+  
 
-
+  [Code](Assignments/L03/DistanceSensorCode.ino)
     
   
     
