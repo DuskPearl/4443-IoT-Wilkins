@@ -109,7 +109,7 @@ void loop() {
         digitalWrite(yellow2, LOW);
         digitalWrite(red1, LOW);
         digitalWrite(red2, LOW);
-    }
+        }
   } else {
     // Turn off all LEDs when not close
       digitalWrite(green1, LOW);
