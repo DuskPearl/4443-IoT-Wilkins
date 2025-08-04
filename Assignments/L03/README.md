@@ -1,5 +1,5 @@
 # IoT Lab 3: Soldering a Sonic Led Level Meter
-### Testing at a distance of 180
+
 
 
 ## Original test template
@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/fb2057ca-62b8-4ef6-86a3-399bcbc0e562
 
 
 ## Sodered Version
-###Tests at a distance of 180cm or less 
+### Tests at a distance of 180cm or less 
 
 Pictures and video of it working:
  
