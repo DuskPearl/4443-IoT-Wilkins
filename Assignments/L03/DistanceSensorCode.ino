@@ -1,5 +1,6 @@
 // Ultrasonic Distance Measurement with HC-SR04
 // Platform: Arduino (Uno/Nano/Etc.)
+// Code given by teacher and altered by Trinity Wilkins
 
 const int trigPin = 11;   // TRIG pin of HC-SR04
 const int echoPin = 12;  // ECHO pin of HC-SR04
