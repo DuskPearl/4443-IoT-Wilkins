@@ -54,62 +54,61 @@ void loop() {
 
   // Lights begin to turn on incrementally if the distance 
   // registered is less than 180 cm from the sensor
-
   if (distance_cm < 180) { 
     
     // All lights turn on at less than 30cm
       if (distance_cm > 0 && distance_cm < 30){
-            digitalWrite(green1, HIGH);
-            digitalWrite(green2, HIGH);
-            digitalWrite(yellow1, HIGH);
-            digitalWrite(yellow2, HIGH);
-            digitalWrite(red1, HIGH);
-            digitalWrite(red2, HIGH);
+        digitalWrite(green1, HIGH);
+        digitalWrite(green2, HIGH);
+        digitalWrite(yellow1, HIGH);
+        digitalWrite(yellow2, HIGH);
+        digitalWrite(red1, HIGH);
+        digitalWrite(red2, HIGH);
     
     // All lights up to red 1 turn on at less than 60cm
       } else if (distance_cm > 30 && distance_cm < 60){
-            digitalWrite(green1, HIGH);
-            digitalWrite(green2, HIGH);
-            digitalWrite(yellow1, HIGH);
-            digitalWrite(yellow2, HIGH);
-            digitalWrite(red1, HIGH);
-            digitalWrite(red2, LOW);
+        digitalWrite(green1, HIGH);
+        digitalWrite(green2, HIGH);
+        digitalWrite(yellow1, HIGH);
+        digitalWrite(yellow2, HIGH);
+        digitalWrite(red1, HIGH);
+        digitalWrite(red2, LOW);
     
     // All lights up to yellow 2 turn on at less than 90cm
       } else if (distance_cm > 60 && distance_cm < 90){
-            digitalWrite(green1, HIGH);
-            digitalWrite(green2, HIGH);
-            digitalWrite(yellow1, HIGH);
-            digitalWrite(yellow2, HIGH);
-            digitalWrite(red1, LOW);
-            digitalWrite(red2, LOW);
+        digitalWrite(green1, HIGH);
+        digitalWrite(green2, HIGH);
+        digitalWrite(yellow1, HIGH);
+        digitalWrite(yellow2, HIGH);
+        digitalWrite(red1, LOW);
+        digitalWrite(red2, LOW);
     
     // All lights up to yellow 1 turn on at less than 120cm
       } else if (distance_cm > 90 && distance_cm < 120){
-            digitalWrite(green1, HIGH);
-            digitalWrite(green2, HIGH);
-            digitalWrite(yellow1, HIGH);
-            digitalWrite(yellow2, LOW);
-            digitalWrite(red1, LOW);
-            digitalWrite(red2, LOW);
+        digitalWrite(green1, HIGH);
+        digitalWrite(green2, HIGH);
+        digitalWrite(yellow1, HIGH);
+        digitalWrite(yellow2, LOW);
+        digitalWrite(red1, LOW);
+        digitalWrite(red2, LOW);
     
     // Both green lights turn on at less than 150cm
        } else if (distance_cm > 120 && distance_cm < 150 ){
-            digitalWrite(green1, HIGH);
-            digitalWrite(green2, HIGH);
-            digitalWrite(yellow1, LOW);
-            digitalWrite(yellow2, LOW);
-            digitalWrite(red1, LOW);
-            digitalWrite(red2, LOW);
+        digitalWrite(green1, HIGH);
+        digitalWrite(green2, HIGH);
+        digitalWrite(yellow1, LOW);
+        digitalWrite(yellow2, LOW);
+        digitalWrite(red1, LOW);
+        digitalWrite(red2, LOW);
     
     // Only green 1 light turns on at less than 180cm
         } else if (distance_cm > 150 && distance_cm < 180 ){
-            digitalWrite(green1, HIGH);
-            digitalWrite(green2, LOW);
-            digitalWrite(yellow1, LOW);
-            digitalWrite(yellow2, LOW);
-            digitalWrite(red1, LOW);
-            digitalWrite(red2, LOW);
+        digitalWrite(green1, HIGH);
+        digitalWrite(green2, LOW);
+        digitalWrite(yellow1, LOW);
+        digitalWrite(yellow2, LOW);
+        digitalWrite(red1, LOW);
+        digitalWrite(red2, LOW);
     }
   } else {
     // Turn off all LEDs when not close
