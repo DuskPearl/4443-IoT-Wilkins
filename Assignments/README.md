@@ -27,9 +27,10 @@
 | A01 | Content Cell  |
 | Content Cell  | Content Cell  |
 
-| First Header  | Second Header | Third header |
+| Num  | Folder | Desctription |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
-
-
+| A01  | [A01](https://github.com/DuskPearl/4443-IoT-Wilkins/tree/main/Assignments/A01)  | GitHub Setup Assignment  |
+| A02  | [A02](https://github.com/DuskPearl/4443-IoT-Wilkins/tree/main/Assignments/A02)  | Hello World Program |
+| L01  | [L01](https://github.com/DuskPearl/4443-IoT-Wilkins/tree/main/Assignments/L01)  | Lab 1  |
+| L03  | [L03](https://github.com/DuskPearl/4443-IoT-Wilkins/tree/main/Assignments/L03)  | Distance Sensor Lab  |
+| Final  | Content Cell  | Final Solo Project  |
